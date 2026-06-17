@@ -8,6 +8,37 @@ export const Experiencia =()=>{
             <div className="subContenedor experiencia">
                 <div className="item-exp" data-aos="fade-down-right">
                     <div className='item'>
+                        <div className='ctn-img Nofull'>
+                            <img src="./assets/img/trabajos/Cayetano.webp" alt="Cayetano" />
+                        </div>
+                        <div className='ctn-txt'>
+                            <div className='txt-title-sub'>
+                                <p className='empresa'>Universidad Cayetano Heredia</p>
+                                <p className='cargo'>Desarrollador Front-End</p>
+                            </div>
+                            <div className='datos'>
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="var(--black)"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                                    San Isidro, Lima, Perú
+                                </p>
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="var(--black)"><path d="M320-400q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm160 0q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm160 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/></svg>
+                                    02/05/2025 - Actualmente
+                                </p>
+                            </div>
+                            <p className='funciones-title'>Funciones:</p>
+                            <ul className='funciones'>
+                                <li>Desarrollo y mantenimiento de más de 100 landing pages con HTML, CSS, JavaScript, animaciones y efectos visuales en WordPress, integradas mediante Zapier, webhooks, CRM y canales digitales.</li>
+                                <li>Integración de formularios web con Dynamics 365 para el registro, segmentación y gestión de leads.</li>
+                                <li>Construcción de interfaces dinámicas con React, TypeScript, CSS modular y consumo de APIs para proyectos de inventario, documentación, reservas de citas, entre otros.</li>
+                                <li>Diseño y adaptación de piezas gráficas digitales con Adobe Illustrator y herramientas de edición visual.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div className="item-exp" data-aos="fade-down-right">
+                    <div className='item'>
                         <div className='ctn-img'>
                             <img src="./assets/img/trabajos/Emhidas.jpg" alt="Emhidas" />
                         </div>
@@ -23,7 +54,7 @@ export const Experiencia =()=>{
                                 </p>
                                 <p>
                                     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="var(--black)"><path d="M320-400q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm160 0q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm160 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/></svg>
-                                    07/03/2025 - Actualmente
+                                    07/03/2025 - 01/05/2025
                                 </p>
                             </div>
                             <p className='funciones-title'>Funciones:</p>
@@ -35,12 +66,12 @@ export const Experiencia =()=>{
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 
                 <div className="item-exp" data-aos="fade-down-right">
                     <div className='item'>
                         <div className='ctn-img'>
-                            <img src="./assets/img/trabajos/evol.png" alt="Evol" />
+                            <img src="./assets/img/trabajos/Evol.png" alt="Evol" />
                         </div>
                         <div className='ctn-txt'>
                             <div className='txt-title-sub'>
@@ -97,14 +128,14 @@ export const Experiencia =()=>{
                                 <li> Programación a base de Html5, CSS, JS (Jquery), con uso de componentes en asp.</li>
                                 <li> Reuniones semanales sobre avances de los proyectos realizados.</li>
                                 <li> Reuniones con el equipo de diseño grafico, para solicitudes de imágenes (medidas, peso, formato).</li>
-                                <li> Diseño y desarrollo con responsive de la nueva pagina del Banco de la Nación (www.bn.com.pe).</li>
+                                <li> Diseño y desarrollo con responsive de la nueva pagina del Banco de la Nación (<a target='_blank' href='https://www.bn.com.pe/'>www.bn.com.pe</a>).</li>
                                 <li> Diseño y desarrollo de paginas web internas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div className="item-exp" data-aos="fade-down-right">
+                {/* <div className="item-exp" data-aos="fade-down-right">
                     <div className='item'>
                         <div className='ctn-img'>
                             <img width={'100%'} height={'auto'} src="./assets/img/trabajos/grupourano.png" alt="Banco de la Nación" />
@@ -132,7 +163,7 @@ export const Experiencia =()=>{
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         </>
